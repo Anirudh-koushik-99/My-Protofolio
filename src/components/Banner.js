@@ -3,7 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import programmer from "../assets/img/programmer.png"
-
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 
 export const Banner = () => {
@@ -48,7 +51,8 @@ export const Banner = () => {
   };
 
   return (
-    <section className="banner" id="home">
+    <Router >
+<section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -60,10 +64,10 @@ export const Banner = () => {
             <p>
               Creative and detail oriented entry level candidate with three months of experience in IT Service. Skilled in Core java and Full Stack Development mainly focused on <span style={{ color: "rgb(97, 219, 251)"}}>MERN</span> Stack 
             </p>
-            <button onClick={() => console.log("connect")}>
-              {" "}
-              Lets Connect <ArrowRightCircle size={25} />{" "}
-            </button>
+            <HashLink to='#connect' style={{textDecoration: "none"}}>
+                <button className="vvd"><span >Let’s Connect <ArrowRightCircle size={25} /></span></button>
+              </HashLink>
+
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={programmer} alt="Header Img" />
@@ -71,5 +75,8 @@ export const Banner = () => {
         </Row>
       </Container>
     </section>
+
+    </Router>
+    
   );
 };
