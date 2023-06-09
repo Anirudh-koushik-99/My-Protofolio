@@ -58,11 +58,13 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my portofolio</span>
             <h1>
-              {"I'm Anirudh "}
-              <span className="wrap" style={{color:"rgb(97, 219, 251)"}}>{text}</span>
+              {"Hi! I'm Anirudh "}
+
             </h1>
+            <h2 style={{fontWeight: "700", fontSize: "45px"}}>And I'm a <span className="wrap" style={{color:"rgb(97, 219, 251)"}}>{text}</span></h2>
+
             <p>
-              Creative and detail oriented entry level candidate with three months of experience in IT Service. Skilled in Core java and Full Stack Development mainly focused on <span style={{ color: "rgb(97, 219, 251)"}}>MERN</span> Stack 
+              Creative and detail oriented entry level engineer with three months of experience in IT Service. Skilled in Core java and Full Stack Development mainly focused on <span style={{ color: "rgb(97, 219, 251)"}}>MERN</span> Stack 
             </p>
             <HashLink to='#connect' style={{textDecoration: "none"}}>
                 <button className="vvd"><span >Let’s Connect <ArrowRightCircle size={25} /></span></button>
