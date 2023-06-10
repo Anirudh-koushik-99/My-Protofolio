@@ -5,14 +5,14 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
+import navIcon5 from '../assets/img/nav-Icon5.svg'
 
 export const Contact = () => {
   return (
     <section className="contact" id="connect">
       <Container>
         <p>
-          Feel free to connect using any of the platforms listed below at any
-          time
+          Feel free to connect using any of the platforms listed below
         </p>
         <div
           className="social-icon"
@@ -24,6 +24,9 @@ export const Contact = () => {
             </a>
             <a href="https://www.linkedin.com/in/anirudh-koushik-b-a-2aa147176/">
               <img src={navIcon1} alt="" />
+            </a>
+            <a href="https://twitter.com/anirudhbaak">
+              <img src={navIcon5} alt="" />
             </a>
             <a href="https://www.facebook.com/anirudh.ani.7798">
               <img src={navIcon2} alt="" />

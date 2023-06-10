@@ -4,6 +4,19 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png"
+import reacthousemarketplace from '../assets/img/react-house-marketplace.png'
+import githubFinder from '../assets/img/githubfinder.png'
+import ecommerce from  '../assets/img//e-commerce.png'
+import bankingapplication from '../assets/img/bankingapplication.png'
+import contactmanagementsystem from '../assets/img/contactmanagementsystem.png'
+import calculator from '../assets/img/calculator.png'
+import musicplayer from '../assets/img/musicplayer.png'
+import netflixlandingpage from '../assets/img/netflixlandingpage.png'
+import weatherapp from '../assets/img/weatherapp.png'
+import snakegame from '../assets/img/snakegame.png'
+import tasktracker from '../assets/img/tasktracker.png'
+import antennamajor from '../assets/img/antennamajor.png'
+import antennaminor from  '../assets/img/antennaminor.png'
 
 
 export const Projects = () => {
@@ -11,60 +24,60 @@ export const Projects = () => {
     {
       title: "House-Marketplace Application 05/2023",
       description: "House Marketplace Application built with React.js and Google firebase enables users to buy sell and rent properties. It offers visually appealing and responsive UI, advanced search filters, real time notification, providing a seamless and efficient experience for users.",
-      imgUrl: projImg1,
+      imgUrl: reacthousemarketplace,
     },
     {
       title: "Github-Finder Application 04/2023",
       description: "Github-Finder application  built using React.js and Github Api allows users to search github users and display their info. Users can view repos, gists, projects and other details of any user they wish to.",
-      imgUrl: projImg2,
+      imgUrl: githubFinder,
     },
     {
       title: "E-Commerce Website 02/2023",
       description: "A fully responsive E-Commerce Website that enables transactons between bussiness and customers is built using HTML, CSS, JS. This multi-page application developed with a user-friendly interface allows customers to browse products, add items to  their cart and complete purchase",
-      imgUrl: projImg3,
+      imgUrl: ecommerce,
     },
     {
       title: "Banking Application 12/2022",
       description: "The aim was to create a banking application for users which enables users to  access various functionalities of an online bank like to register, deposite, withdraw, check balance, to tansfer money securly or apply for loan. The project is implemented using Java/J2Ee while following the MVC design pattern. All the dataset used is stored and accessed using Oracle  DBMS",
-      imgUrl: projImg2,
+      imgUrl: bankingapplication,
     },
     {
       title: "Contact Management System 07/2022",
       description: "The aim was to automate the manual system by the help of computerized and full-fledged computer software thus helping organization and better utilization of resources. The project enables users to easily create and store contact information. Users can add, view delete contactand also find an existing contact",
-      imgUrl: projImg1,
+      imgUrl: contactmanagementsystem,
     },
   ]
 
   const moreWebProjects = [
     {
-      title:"Feedback-Application",
+      title:"React-Task-Tracker-Application",
       description: "",
-      imgUrl: projImg1,
+      imgUrl: tasktracker,
     },
     {
       title:"Calculator-Application",
       description: "",
-      imgUrl: projImg1,
+      imgUrl: calculator,
     },
     {
       title:"Music-Player-Application",
       description: "",
-      imgUrl: projImg1,
+      imgUrl: musicplayer,
     },
     {
       title:"Netflix-landing-page",
       description: "",
-      imgUrl: projImg1,
+      imgUrl: netflixlandingpage,
     },
     {
       title:"Weather-Application",
       description: "",
-      imgUrl: projImg1,
+      imgUrl: weatherapp,
     },
     {
-      title:"Snake-Game-Application",
+      title:"Snake-Game",
       description: "",
-      imgUrl: projImg1,
+      imgUrl: snakegame,
     }, 
 
   ]
@@ -74,12 +87,12 @@ export const Projects = () => {
       {
         title:"DOA (Direction of Arrival) and Beam-Forming using algorithms in Smart Antenna 04/2022",
         description: "Smart Antenna Arrays using signal processing are used to locate sources of various signals called the DOA so that efficient Beam-Forming can be achieved. The new Witch Factorization algorithm for DOA and VSSLMS algoritm for Beam-Forming provided the best Resolution and Bias. Project implemented using MATLAB",
-        imgUrl: projImg1,
+        imgUrl: antennamajor,
       },
       {
         title:"Ultra-Wide-Band Antenna design for wireless Personal Area Network application 09/2021",
         description: "UWB being popular because of high data rate, low power consumption an an Ultra-Wide-Band Antenna is designed for a frequency of 7.5Ghz. The simulation and measured results provide a return loss of less than -10dB and is suitable for using accross the entire UWB frequency range.Project implemented using HFSS Software",
-        imgUrl: projImg1,
+        imgUrl: antennaminor,
       },
   ]
 
